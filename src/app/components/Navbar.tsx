@@ -66,7 +66,7 @@ export default function Navbar() {
                     {/* Navigation links for large screens */}
                     <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-100 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
                     <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-100 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
-                    <li className="hover:text-gray-600 hover:pointer transition-colors text-4xl">
+                    <li className="hover:text-gray-600 hover:pointer transition-colors mt-2 text-4xl">
                         <Link href="/contact">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" className='text-orange-500' viewBox="0 0 50 50">
                                 <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>

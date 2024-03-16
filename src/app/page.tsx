@@ -56,8 +56,8 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <section className="h-screen w-full flex justify-center">
-      <div className="w-full h-screen flex justify-center items-center absolute -z-10">
+      <section className="h-[150vh] w-full flex justify-center">
+      <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
           <Image
             src={"/marmorwhite.jpg"}
             alt="Coffee Shop"
@@ -66,18 +66,26 @@ export default function Home() {
             priority
           />        
         </div>
-        <div className=" absolute left-40 mt-40 text-6xl text-black">
+        <div className=" absolute left-40 mt-40 text-black">
+          <div className="text-6xl">
           <h1>DROP BY,</h1>
           <h1>IT'S SUSHI TIME SOMEWHERE</h1>
-          <div className="w-1/2 h-[30ch] flex justify-center items-center absolute -z-10">
-          <Image
-            src={"/themainburger.jpg"}
-            alt="Coffee Shop"
-            objectFit="cover"
-            layout="fill"
-            priority
-          />        
-        </div>
+          </div>
+            <div className="flex flex-row w-full h-[85vh]">
+              <div className="w-2/5 h-[85vh] flex justify-center items-center absolute mt-20">
+              <Image
+                src={"/themainburger.jpg"}
+                alt="Coffee Shop"
+                objectFit="cover"
+                layout="fill"
+                priority
+              />   
+              </div>    
+              <div className="w-1/2 h-full text-l">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet excepturi similique repellat velit esse exercitationem laudantium obcaecati veritatis, nisi dolore, facilis dolor quae rerum fugit labore doloribus! Non voluptate veniam doloribus expedita, explicabo rerum aliquid sit tenetur unde alias neque velit dolorum officia, voluptatibus harum blanditiis, dignissimos corrupti similique.</p>
+              </div> 
+            
+          </div>
         </div>
       </section>
     </main>

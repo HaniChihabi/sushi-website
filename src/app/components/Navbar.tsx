@@ -19,7 +19,7 @@ export default function Navbar() {
     // Function to control the visibility and background color of the navbar on scroll
     const controlNavbar = () => {
         // Hide navbar and change background to black when scrolling down and past 100px
-        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+        if (window.scrollY > lastScrollY && window.scrollY > 5) {
             setNavbarBg('bg-black'); // Set navbar background to black
         } else {
             // Show navbar and change background to transparent when scrolling up or at the top of the page

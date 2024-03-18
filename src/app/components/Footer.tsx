@@ -81,7 +81,7 @@ const navigation = {
 export default function Footer() {
     return (
       <>
-        <footer className="bg-[rgb(67,77,61)]">
+        <footer className="bg-slate-950">
           <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
             {/* Main navigation */}
             <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">

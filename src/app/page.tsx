@@ -73,35 +73,38 @@ export default function Home() {
       </section>
       
       <section className="h-screen w-full flex justify-center text-white">
-        <div className="w-full h-screen absolute flex justify-center items-center  -z-10">
-          <Image
-            src={"/marmorwhite.jpg"}
-            alt="Coffee Shop"
-            objectFit="cover"
-            layout="fill"
-            priority
-          />
-        </div>        
-        <div className=" absolute left-40 mt-40 text-black gap-x-10">
-          <div className="text-5xl text-orange-500 font-bold">
-            <h1>DROP BY,</h1>
-            <h1>IT'S SUSHI TIME SOMEWHERE</h1>
-          </div>
-          <div className="w-1/4 mt-20 h-f text-l text-black">
-            <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-            <button type="button"  className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
-          </div> 
-          <div className="w-1/5 h-full items-center relative ml-40 mt-20"> 
-            <Image
-              src={"/themainburger.jpg"}
-              alt="Coffee Shop"
-              objectFit="cover"
-              layout="fill"
-              priority
-            />   
-          </div>
-        </div>
-      </section>
+  <div className="w-full h-screen absolute flex justify-center items-center -z-10">
+    <Image
+      src={"/marmorwhite.jpg"}
+      alt="Coffee Shop"
+      objectFit="cover"
+      layout="fill"
+      priority
+    />
+  </div>
+  <div className="absolute left-40 mt-40 text-black gap-x-10">
+    <div className="text-5xl text-orange-500 font-bold">
+      <h1>DROP BY,</h1>
+      <h1>IT'S SUSHI TIME SOMEWHERE</h1>
+    </div>
+    {/* Flex container for aligning paragraph and image side by side */}
+    <div className="flex w-full mt-20 justify-between gap-x-10">
+      <div className="w-1/4 text-l text-black">
+        <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+        <button type="button" className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
+      </div>
+      {/* Image container adjusted to be next to the paragraph */}
+      <div className="w-1/2 h-auto mr-40">
+      <img
+          src={"/sushi6.jpg"}
+          alt="Sushi"
+          style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
+        />  
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <section className="h-[150vh] w-full flex justify-center">
         <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">

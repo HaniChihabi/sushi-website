@@ -37,7 +37,7 @@ export default function Home() {
           <div className="w-full h-1/2 flex">
             <div className="w-1/3 h-full relative">
               <Image
-                src={"/mainsushi.jpg"}
+                src={"/sushi3.jpg"}
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -50,18 +50,18 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full h-1/2 relative top-0 flex">
-            <div className="w-full h-1/2 relative right-80 top-10">
+            <div className="w-1/3 h-2/3 relative right-80 bottom-10">
               <Image
-                src={"/mainsushi.jpg"}
+                src={"/sushi4.jpg"}
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
                 priority
               />
             </div>
-            <div className="w-full h-1/2 relative left-32">
+            <div className="w-full h-1/2 relative left-56">
               <Image
-                src={"/mainsushi.jpg"}
+                src={"/sushi5.jpg"}
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"

@@ -64,8 +64,8 @@ export default function Navbar() {
             <div className='hidden lg:block'>
                 <ul className="flex gap-x-10 mr-20 text-l font-light">
                     {/* Navigation links for large screens */}
-                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-100 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
-                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-100 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
+                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-400 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
+                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-400 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
                     <li className="hover:text-gray-600 hover:pointer transition-colors mt-2 text-4xl">
                         <Link href="/contact">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" className='text-orange-500' viewBox="0 0 50 50">

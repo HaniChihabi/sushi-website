@@ -5,6 +5,7 @@ import CustomDivider from './components/CustomDivider'; // Adjust the import pat
 export default function Home() {
   return (
     <main>
+
       <section className="flex w-full h-screen ">
         <div className="w-full h-screen flex justify-center items-center relative -z-10">
           <Image
@@ -20,6 +21,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="h-screen w-full flex justify-center">
         <div className="w-full h-screen absolute flex justify-center items-center  -z-10">
           <Image
@@ -30,7 +32,6 @@ export default function Home() {
             priority
           />
         </div>
-
         <div className="w-1/2 relative top-10 gap-10 text-white">
           <h1 className="flex justify-center items-center text-5xl font-bold py-20">TOKYO-INSPIRED JAPANESE CUISINE & COCKTAILS</h1>
           <div className="w-full h-1/2 flex">
@@ -49,7 +50,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full h-1/2 relative top-0 flex">
-            <div className="w-full h-1/2 relative">
+            <div className="w-full h-1/2 relative right-80 top-10">
               <Image
                 src={"/mainsushi.jpg"}
                 alt="Coffee Shop"
@@ -58,7 +59,7 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="w-full h-1/2 relative">
+            <div className="w-full h-1/2 relative left-32">
               <Image
                 src={"/mainsushi.jpg"}
                 alt="Coffee Shop"
@@ -90,7 +91,7 @@ export default function Home() {
             <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
             <button type="button"  className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
           </div> 
-          <div className="w-2/5 h-full flex justify-center items-center relative ml-40 mt-20"> 
+          <div className="w-1/5 h-full items-center relative ml-40 mt-20"> 
             <Image
               src={"/themainburger.jpg"}
               alt="Coffee Shop"
@@ -149,6 +150,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
     </main>
   );
 }

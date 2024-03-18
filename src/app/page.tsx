@@ -5,7 +5,7 @@ import CustomDivider from './components/CustomDivider'; // Adjust the import pat
 export default function Home() {
   return (
     <main>
-
+{/* test */}
       <section className="flex w-full h-screen ">
         <div className="w-full h-screen flex justify-center items-center relative -z-10">
           <Image

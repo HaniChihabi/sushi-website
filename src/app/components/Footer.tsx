@@ -72,10 +72,13 @@ const navigation = {
             clipRule="evenodd"
           />
         </svg>
+
       ),
     },
   ],
 };
+
+
 
   
 export default function Footer() {

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import {Divider} from "@nextui-org/react";
+import CustomDivider from './components/CustomDivider'; // Adjust the import path as necessary
 
 export default function Home() {
   return (
@@ -66,13 +68,13 @@ export default function Home() {
             priority
           />        
         </div>
-        <div className=" absolute left-40 mt-40 text-black">
+        <div className=" absolute left-40 mt-40 text-black gap-x-10">
           <div className="text-6xl">
           <h1>DROP BY,</h1>
           <h1>IT'S SUSHI TIME SOMEWHERE</h1>
           </div>
-            <div className="flex flex-row w-full h-[85vh]">
-              <div className="w-2/5 h-[85vh] flex justify-center items-center absolute mt-20">
+            <div className="flex flex-row w-full h-[85vh] gap-x-64">
+            <div className="w-2/5 flex justify-center items-center relative"> {/* Adjusted for image */}
               <Image
                 src={"/themainburger.jpg"}
                 alt="Coffee Shop"
@@ -81,9 +83,28 @@ export default function Home() {
                 priority
               />   
               </div>    
-              <div className="w-1/2 h-full text-l">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet excepturi similique repellat velit esse exercitationem laudantium obcaecati veritatis, nisi dolore, facilis dolor quae rerum fugit labore doloribus! Non voluptate veniam doloribus expedita, explicabo rerum aliquid sit tenetur unde alias neque velit dolorum officia, voluptatibus harum blanditiis, dignissimos corrupti similique.</p>
+              <div className="w-1/4 mt-20 h-f text-l">
+                <div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet excepturi similique repellat velit esse exercitationem laudantium obcaecati veritatis, nisi dolore, facilis dolor quae rerum fugit labore doloribus! Non voluptate veniam doloribus expedita, explicabo rerum aliquid sit tenetur unde alias neque velit dolorum officia, voluptatibus harum blanditiis, dignissimos corrupti similique.</p>
+                </div>
+                <div className="mt-40">
+                  <h1 className="text-3xl font-bold">Address</h1>
+                  <div className="text-l mt-2">
+                    <p>500 TERRY FRANCINE STREET</p>
+                    <p>SAN FRANCISCO, CA 94158</p>
+                  </div>
+                </div>
+                <div className="border-5 w-20 h-1"></div>
+                <CustomDivider thickness="h-0.5" color="bg-black" margin="my-8" />
+                <div className="mt-20">
+                  <h1 className="text-3xl font-bold">Address</h1>
+                  <div className="text-l mt-2">
+                    <p>500 TERRY FRANCINE STREET</p>
+                    <p>SAN FRANCISCO, CA 94158</p>
+                  </div>
+                </div>
               </div> 
+
             
           </div>
         </div>

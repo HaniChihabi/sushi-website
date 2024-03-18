@@ -20,18 +20,18 @@ export default function Home() {
         </div>
         </div>
       </section>
-      <section className="h-screen w-full flex justify-center text-white">
+      <section className="h-screen w-full flex justify-center">
       <div className="w-full h-screen absolute flex justify-center items-center  -z-10">
           <Image
-            src={"/marmordark.jpg"}
+            src={"/marmorwhite.jpg"}
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
             priority
           />
         </div>
-        <div className="w-1/2 relative top-10 gap-10">
-        <h1 className="flex justify-center items-center text-6xl font-display py-20 text-white">TOKYO-INSPIRED JAPANESE CUISINE & COCKTAILS</h1>
+        <div className="w-1/2 relative top-10 gap-10 text-black">
+        <h1 className="flex justify-center items-center text-5xl font-bold py-20">TOKYO-INSPIRED JAPANESE CUISINE & COCKTAILS</h1>
         <div className="w-full h-1/2 flex">
           <div className="w-1/3 h-full relative">
             <Image
@@ -42,26 +42,43 @@ export default function Home() {
                   priority
                 />
             </div>
+          
             <div className="w-1/2 h-full ml-20 text-l leading-relaxed mt-10">
               <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
               <button type="button"  className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
-              <div className="w-full h-1/2 relative top-40 ml-32">
-            <Image
-                  src={"/mainsushi.jpg"}
-                  alt="Coffee Shop"
-                  objectFit="cover"
-                  layout="fill"
-                  priority
-                />
-            </div>
+              <div>
+                
+              </div>
+              
           </div>
+          
         </div>
+        <div className="w-full h-1/2 relative top-0 flex">
+                  <div className="w-full h-1/2 relative">
+                    <Image
+                      src={"/mainsushi.jpg"}
+                      alt="Coffee Shop"
+                      objectFit="cover"
+                      layout="fill"
+                      priority
+                    />
+                </div>
+                <div className="w-full h-1/2 relative">
+                    <Image
+                      src={"/mainsushi.jpg"}
+                      alt="Coffee Shop"
+                      objectFit="cover"
+                      layout="fill"
+                      priority
+                    />
+                </div>
+              </div>
       </div>
       </section>
       <section className="h-[150vh] w-full flex justify-center">
       <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
           <Image
-            src={"/marmorwhite.jpg"}
+            src={"/marmordark.jpg"}
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
@@ -69,12 +86,12 @@ export default function Home() {
           />        
         </div>
         <div className=" absolute left-40 mt-40 text-black gap-x-10">
-          <div className="text-6xl">
+          <div className="text-5xl text-orange-500 font-bold">
           <h1>DROP BY,</h1>
           <h1>IT'S SUSHI TIME SOMEWHERE</h1>
           </div>
-            <div className="flex flex-row w-full h-[85vh] gap-x-64">
-            <div className="w-2/5 flex justify-center items-center relative"> {/* Adjusted for image */}
+            <div className="flex flex-row w-full h-[100vh] gap-x-64">
+            <div className="w-2/5 flex justify-center items-center relative mt-20"> {/* Adjusted for image */}
               <Image
                 src={"/themainburger.jpg"}
                 alt="Coffee Shop"
@@ -83,11 +100,12 @@ export default function Home() {
                 priority
               />   
               </div>    
-              <div className="w-1/4 mt-20 h-f text-l">
+              <div className="w-1/4 mt-20 h-f text-l text-white">
                 <div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet excepturi similique repellat velit esse exercitationem laudantium obcaecati veritatis, nisi dolore, facilis dolor quae rerum fugit labore doloribus! Non voluptate veniam doloribus expedita, explicabo rerum aliquid sit tenetur unde alias neque velit dolorum officia, voluptatibus harum blanditiis, dignissimos corrupti similique.</p>
+                  <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
                 </div>
-                <div className="mt-40">
+                <div className="mt-40">                
+                <CustomDivider thickness="h-0.5" color="bg-white" margin="my-8" />
                   <h1 className="text-3xl font-bold">Address</h1>
                   <div className="text-l mt-2">
                     <p>500 TERRY FRANCINE STREET</p>
@@ -95,8 +113,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="border-5 w-20 h-1"></div>
-                <CustomDivider thickness="h-0.5" color="bg-black" margin="my-8" />
-                <div className="mt-20">
+                <div className="mt-20">                
+                <CustomDivider thickness="h-0.5" color="bg-white" margin="my-8" />
                   <h1 className="text-3xl font-bold">Address</h1>
                   <div className="text-l mt-2">
                     <p>500 TERRY FRANCINE STREET</p>
@@ -108,6 +126,17 @@ export default function Home() {
             
           </div>
         </div>
+      </section>
+      <section className="h-screen w-full flex justify-center text-white">
+      <div className="w-full h-screen absolute flex justify-center items-center  -z-10">
+          <Image
+            src={"/marmordark.jpg"}
+            alt="Coffee Shop"
+            objectFit="cover"
+            layout="fill"
+            priority
+          />
+        </div>        
       </section>
     </main>
   );

@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { MenuOutlined } from '@ant-design/icons';
 import Image from 'next/image';
 
 export default function Navbar() {
@@ -14,14 +13,18 @@ export default function Navbar() {
     // State to control the visibility of the mobile menu
     const [showMenu, setShowMenu] = useState(false);
 
-    // Function to control the visibility of the navbar on scroll
+    // State to control the background color of the navbar
+    const [navbarBg, setNavbarBg] = useState('transparent');
+
+    // Function to control the visibility and background color of the navbar on scroll
     const controlNavbar = () => {
-        // Hide navbar when scrolling down and past 100px
+        // Hide navbar and change background to black when scrolling down and past 100px
         if (window.scrollY > lastScrollY && window.scrollY > 100) {
-            setShow(false);
+            setNavbarBg('bg-black'); // Set navbar background to black
         } else {
-            // Show navbar when scrolling up or at the top of the page
+            // Show navbar and change background to transparent when scrolling up or at the top of the page
             setShow(true);
+            setNavbarBg(window.scrollY > 100 ? 'bg-black' : 'transparent'); // Keep navbar background black if not at the top
         }
         // Update last scroll position state
         setLastScrollY(window.scrollY);
@@ -33,7 +36,7 @@ export default function Navbar() {
         return () => {
             window.removeEventListener('scroll', controlNavbar);
         };
-    }, [lastScrollY]);
+    }, [lastScrollY, navbarBg]); // Add navbarBg as a dependency
 
     // Effect to toggle body overflow based on mobile menu visibility
     useEffect(() => {
@@ -47,20 +50,19 @@ export default function Navbar() {
     }, [showMenu]);
 
     return (
-        <nav className={`fixed flex z-50 justify-between w-full p-7 transition-opacity duration-500 ${show ? 'opacity-100' : 'opacity-0'}`}>
-        <Link href="/#">
-            <div className='w-12 h-12 relative bottom-1 ml-6'>
-                    <Image
-                        src="/sushilogo.png"
-                        alt="Sushi Store"
-                        width={60} // Specify width
-                        height={60} // Specify height
-                        objectFit="contain" // Adjust based on preference
-                        priority
-                    />
-                
-            </div>
-        </Link>
+<nav className={`fixed flex z-50 justify-between w-full p-7 transition-opacity duration-500 ${show ? 'opacity-100' : 'opacity-0'} ${navbarBg} navbar-transition`}>
+            <Link href="/#">
+                <div className='w-12 h-12 relative bottom-1 ml-6'>
+                        <Image
+                            src="/sushilogo.png"
+                            alt="Sushi Store"
+                            width={60} // Specify width
+                            height={60} // Specify height
+                            objectFit="contain" // Adjust based on preference
+                            priority
+                        />
+                </div>
+            </Link>
             <div className='hidden lg:block'>
                 <ul className="flex gap-x-10 mr-20 text-l font-light">
                     {/* Navigation links for large screens */}
@@ -90,7 +92,6 @@ export default function Navbar() {
                         <li className="hover:text-gray-600 hover:pointer transition-colors"><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>
-            )}
-        </nav>
+            )}        </nav>
     );
 };

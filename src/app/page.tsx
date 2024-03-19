@@ -153,7 +153,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-[140vh] w-full flex justify-center">
+      <section className="h-[120vh] w-full flex justify-center">
     <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
       <Image
         src={"/marmorwhite.jpg"}
@@ -164,14 +164,13 @@ export default function Home() {
       />
     </div>
     <div>
-      <div className="absolute left-40 mt-40 text-5xl text-orange-500 font-bold">
+      <div className="relative left-40 mt-32 text-5xl text-orange-500 font-bold">
         <h1>WHAT OUR CUSTOMERS</h1>
         <h1>SAY ABOUT US</h1>
-      </div>
       {/* Below the h1s, adding the big div with 4 containers */}
       </div>
     {/* Increased margin-top, padding, and grid gap for the big div with 4 containers */}
-    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-96 px-24 relative bottom-10">
+    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-24 px-24 relative bottom-10">
       <div className=" p-6 border-t-2 border-l-2 bg-gray-50 border-black">
         <div className="px-8 py-12">
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
@@ -195,7 +194,7 @@ export default function Home() {
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
           <h1 className="mt-5 font-bold">hgv ghbh</h1>
         </div>
-      </div>
+      </div></div>
     </div>
   </section>
     </main>

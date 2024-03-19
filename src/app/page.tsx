@@ -124,7 +124,7 @@ export default function Home() {
           <div className="flex flex-row w-full h-[100vh] gap-x-64">
             <div className="w-2/5 flex justify-center items-center relative mt-20"> {/* Adjusted for image */}
               <Image
-                src={"/themainburger.jpg"}
+                src={"/sushishop.jpg"}
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -153,7 +153,23 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      <section className="h-[150vh] w-full flex justify-center">
+      <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
+          <Image
+            src={"/marmorwhite.jpg"}
+            alt="Coffee Shop"
+            objectFit="cover"
+            layout="fill"
+            priority
+          />        
+        </div>
+        <div className="absolute left-40 mt-40 text-black gap-x-10">
+          <div className="text-5xl text-orange-500 font-bold">
+            <h1>WHAT OUR CUSTOMERS </h1>
+            <h1>SAY ABOUT US</h1>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {Divider} from "@nextui-org/react";
 import CustomDivider from './components/CustomDivider'; // Adjust the import path as necessary
-
+import FiveStar from "./components/FiveStar";
 export default function Home() {
   return (
     <main>
@@ -175,24 +175,28 @@ export default function Home() {
         <div className="px-8 py-12">
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
           <h1 className="mt-5 font-bold">hgv ghbh</h1>
+          <FiveStar />
         </div>
       </div>
       <div className="bg-gray-50 p-6 border-t-2 border-r-2 border-l-2 border-black">
         <div className="px-8 py-12">
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
           <h1 className="mt-5 font-bold">hgv ghbh</h1>
+          <FiveStar />
         </div>
       </div>
       <div className="bg-gray-50 p-6 border-t-2 border-l-2 border-b-2 border-black">
         <div className="px-8 py-12">
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
           <h1 className="mt-5 font-bold">hgv ghbh</h1>
+          <FiveStar />
         </div>
       </div>
       <div className="bg-gray-50 p-6 border-2 border-black">
         <div className="px-8 py-12">
           <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
           <h1 className="mt-5 font-bold">hgv ghbh</h1>
+          <FiveStar />
         </div>
       </div></div>
     </div>

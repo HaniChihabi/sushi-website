@@ -59,7 +59,7 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="w-full h-1/2 relative left-56">
+            <div className="w-full h-1/2 relative top-10 left-56">
               <Image
                 src={"/sushi5.jpg"}
                 alt="Coffee Shop"
@@ -153,7 +153,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-[120vh] w-full flex justify-center">
+      <section className="h-[100vh] w-full flex justify-center">
     <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
       <Image
         src={"/marmorwhite.jpg"}

@@ -163,25 +163,26 @@ export default function Home() {
         priority
       />
     </div>
-    <div className="absolute left-40 mt-40 text-black gap-x-10">
-      <div className="text-5xl text-orange-500 font-bold">
+    <div>
+      <div className="absolute left-40 mt-40 text-5xl text-orange-500 font-bold">
         <h1>WHAT OUR CUSTOMERS</h1>
         <h1>SAY ABOUT US</h1>
       </div>
       {/* Below the h1s, adding the big div with 4 containers */}
-      <div className="mt-10 grid grid-cols-2 grid-rows-2 border ">
-        <div className="flex justify-center items-center p-4 border-t-2 border-l-2 border-black">
-          <p>Top Left Content</p>
-        </div>
-        <div className="flex justify-center items-center bg-gray-200 p-4 border-t-2 border-r-2 border-l-2 border-black">
-          <p>Top Right Content</p>
-        </div>
-        <div className="flex justify-center items-center bg-gray-200 p-4 border-t-2 border-l-2 border-b-2 border-black">
-          <p>Bottom Left Content</p>
-        </div>
-        <div className="flex justify-center items-center bg-gray-200 p-4 border-2 border-black">
-          <p>Bottom Right Content</p>
-        </div>
+      </div>
+    {/* Increased margin-top, padding, and grid gap for the big div with 4 containers */}
+    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-96 px-40 relative bottom-10">
+      <div className="flex justify-center items-center p-6 border-t-2 border-l-2 border-black">
+        <p className="text-xl">Top Left Content</p>
+      </div>
+      <div className="flex justify-center items-center bg-gray-200 p-6 border-t-2 border-r-2 border-l-2 border-black">
+        <p className="text-xl">Top Right Content</p>
+      </div>
+      <div className="flex justify-center items-center bg-gray-200 p-6 border-t-2 border-l-2 border-b-2 border-black">
+        <p className="text-xl">Bottom Left Content</p>
+      </div>
+      <div className="flex justify-center items-center bg-gray-200 p-6 border-2 border-black">
+        <p className="text-xl">Bottom Right Content</p>
       </div>
     </div>
   </section>

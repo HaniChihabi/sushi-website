@@ -153,7 +153,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-[150vh] w-full flex justify-center">
+      <section className="h-[140vh] w-full flex justify-center">
     <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
       <Image
         src={"/marmorwhite.jpg"}
@@ -171,18 +171,30 @@ export default function Home() {
       {/* Below the h1s, adding the big div with 4 containers */}
       </div>
     {/* Increased margin-top, padding, and grid gap for the big div with 4 containers */}
-    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-96 px-40 relative bottom-10">
-      <div className="flex justify-center items-center p-6 border-t-2 border-l-2 border-black">
-        <p className="text-xl">Top Left Content</p>
+    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-96 px-24 relative bottom-10">
+      <div className=" p-6 border-t-2 border-l-2 bg-gray-50 border-black">
+        <div className="px-8 py-12">
+          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h1 className="mt-5 font-bold">hgv ghbh</h1>
+        </div>
       </div>
-      <div className="flex justify-center items-center bg-gray-200 p-6 border-t-2 border-r-2 border-l-2 border-black">
-        <p className="text-xl">Top Right Content</p>
+      <div className="bg-gray-50 p-6 border-t-2 border-r-2 border-l-2 border-black">
+        <div className="px-8 py-12">
+          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h1 className="mt-5 font-bold">hgv ghbh</h1>
+        </div>
       </div>
-      <div className="flex justify-center items-center bg-gray-200 p-6 border-t-2 border-l-2 border-b-2 border-black">
-        <p className="text-xl">Bottom Left Content</p>
+      <div className="bg-gray-50 p-6 border-t-2 border-l-2 border-b-2 border-black">
+        <div className="px-8 py-12">
+          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h1 className="mt-5 font-bold">hgv ghbh</h1>
+        </div>
       </div>
-      <div className="flex justify-center items-center bg-gray-200 p-6 border-2 border-black">
-        <p className="text-xl">Bottom Right Content</p>
+      <div className="bg-gray-50 p-6 border-2 border-black">
+        <div className="px-8 py-12">
+          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h1 className="mt-5 font-bold">hgv ghbh</h1>
+        </div>
       </div>
     </div>
   </section>

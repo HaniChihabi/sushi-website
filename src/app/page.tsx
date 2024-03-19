@@ -154,22 +154,37 @@ export default function Home() {
         </div>
       </section>
       <section className="h-[150vh] w-full flex justify-center">
-      <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
-          <Image
-            src={"/marmorwhite.jpg"}
-            alt="Coffee Shop"
-            objectFit="cover"
-            layout="fill"
-            priority
-          />        
+    <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
+      <Image
+        src={"/marmorwhite.jpg"}
+        alt="Coffee Shop"
+        objectFit="cover"
+        layout="fill"
+        priority
+      />
+    </div>
+    <div className="absolute left-40 mt-40 text-black gap-x-10">
+      <div className="text-5xl text-orange-500 font-bold">
+        <h1>WHAT OUR CUSTOMERS</h1>
+        <h1>SAY ABOUT US</h1>
+      </div>
+      {/* Below the h1s, adding the big div with 4 containers */}
+      <div className="mt-10 grid grid-cols-2 grid-rows-2 border ">
+        <div className="flex justify-center items-center p-4 border-t-2 border-l-2 border-black">
+          <p>Top Left Content</p>
         </div>
-        <div className="absolute left-40 mt-40 text-black gap-x-10">
-          <div className="text-5xl text-orange-500 font-bold">
-            <h1>WHAT OUR CUSTOMERS </h1>
-            <h1>SAY ABOUT US</h1>
-          </div>
+        <div className="flex justify-center items-center bg-gray-200 p-4 border-t-2 border-r-2 border-l-2 border-black">
+          <p>Top Right Content</p>
         </div>
-      </section>
+        <div className="flex justify-center items-center bg-gray-200 p-4 border-t-2 border-l-2 border-b-2 border-black">
+          <p>Bottom Left Content</p>
+        </div>
+        <div className="flex justify-center items-center bg-gray-200 p-4 border-2 border-black">
+          <p>Bottom Right Content</p>
+        </div>
+      </div>
+    </div>
+  </section>
     </main>
   );
 }

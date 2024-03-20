@@ -66,8 +66,8 @@ export default function Navbar() {
             <div className='hidden lg:block'>
                 <ul className="flex gap-x-10 mr-20 text-l font-light">
                     {/* Navigation links for large screens */}
-                    <li className="transition duration-300 ease-in-out hover:bg-orange-600 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
-                    <li className="transition duration-300 ease-in-out hover:bg-orange-500 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
+                    <li className="transition duration-300 ease-in-out hover:bg-orange-600 font-light  py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
+                    <li className="transition duration-300 ease-in-out hover:bg-orange-500 font-light py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
                     <li className="hover:text-amber-50 hover:pointer transition-colors text-orange-500 mt-0 text-4xl">
                     <MenuOutlined onClick={() => setShowMenu(!showMenu)} />
                     </li>

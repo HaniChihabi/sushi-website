@@ -35,13 +35,12 @@ export default function Menu() {
                 />
             <div className="absolute w-3/5 h-full mt-40 text-white">
                 <div className="ml-4 leading-loose">
-                    <h1 className="text-5xl text-orange-600 font-bold">DAY TO NIGHT</h1>
+                    <h1 className="text-5xl text-orange-500 font-bold">DAY TO NIGHT</h1>
                     <h2>SERVED DAILY 12PM - 10PM</h2>
                 </div>
-                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 {/* APPETIZER */}
-                <div className="ml-4">
-                    <h1 className="font-bold text-xl">APPETIZER</h1>
+                <div className="ml-4 mt-20">
+                    <h1 className="font-bold text-3xl">APPETIZER</h1>
                     <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
@@ -73,7 +72,7 @@ export default function Menu() {
                 {/* SPECIAL SUSHI ROLLS */}
 
                 <div className="ml-4 mt-32">
-                    <h1 className="font-bold text-xl">SPECIAL SUSHI ROLLS</h1>
+                    <h1 className="font-bold text-3xl">SPECIAL SUSHI ROLLS</h1>
                     <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
@@ -106,7 +105,7 @@ export default function Menu() {
                 {/* NIGIRI */}
 
                 <div className="ml-4 mt-32">
-                    <h1 className="font-bold text-xl">NIGIRI</h1>
+                    <h1 className="font-bold text-3xl">NIGIRI</h1>
                     <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />

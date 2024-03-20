@@ -24,7 +24,7 @@ export default function Menu() {
 
         </section>
         
-        <section className="w-full h-[130vh] flex justify-center items-center relative -z-10">
+        <section className="w-full h-[200vh] flex justify-center items-center relative -z-10">
         <div className="w-full h-full flex justify-center items-center relative -z-10">
             <Image
                     src={"/marmordark.jpg"}
@@ -39,6 +39,7 @@ export default function Menu() {
                     <h2>SERVED DAILY 12PM - 10PM</h2>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                {/* APPETIZER */}
                 <div className="ml-4">
                     <h1 className="font-bold text-xl">APPETIZER</h1>
                     <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
@@ -69,6 +70,70 @@ export default function Menu() {
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
 
+                {/* SPECIAL SUSHI ROLLS */}
+
+                <div className="ml-4 mt-32">
+                    <h1 className="font-bold text-xl">SPECIAL SUSHI ROLLS</h1>
+                    <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+
+
+                {/* NIGIRI */}
+
+                <div className="ml-4 mt-32">
+                    <h1 className="font-bold text-xl">NIGIRI</h1>
+                    <p>I’m a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
+                <div className="ml-4">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold text-xl">Steamed Buns</h1>
+                        <h1 className="mr-4 font-bold text-xl">6.00$</h1>
+                    </div>
+                    <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                </div>
+                <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 
 
 

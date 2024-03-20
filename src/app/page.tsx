@@ -1,23 +1,25 @@
 import Image from "next/image";
 import {Divider} from "@nextui-org/react";
 import CustomDivider from './components/CustomDivider'; // Adjust the import path as necessary
+import FiveStar from "./components/FiveStar";
+import Rating from "./components/Rating";
 
 export default function Home() {
   return (
     <main>
 {/* test */}
-      <section className="flex w-full h-screen ">
+      <section className="flex w-full h-[screen] ">
         <div className="w-full h-screen flex justify-center items-center relative -z-10">
           <Image
-            src={"/mainsushi.jpg"}
+            src={"/mainsushi2.jpg"}
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
             priority
           />
-          <div>
-            <h1 className=" font-bold text-black text-7xl z-10 relative bottom-32 ">Sushi Store</h1>
-            <h1 className=" font-bold text-orange-500 text-6xl z-10 relative bottom-20 left-5">Crafted with Passion, Served with Joy</h1>
+          <div className="text-center text-6xl flex relative bottom-40">
+            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion, </h1>
+            <h1 className=" font-bold text-black z-10 relative left-5">  Served with Joy</h1>
           </div>
         </div>
       </section>
@@ -46,7 +48,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 h-full ml-20 text-l leading-relaxed mt-10">
               <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-              <button type="button"  className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
+              <button type="button"  className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
             </div>
           </div>
           <div className="w-full h-1/2 relative top-0 flex">
@@ -72,7 +74,7 @@ export default function Home() {
       </div>
       </section>
       
-      <section className="h-screen w-full flex justify-center text-white">
+      <section className="h-[90vh] w-full flex justify-center text-white">
   <div className="w-full h-screen absolute flex justify-center items-center -z-10">
     <Image
       src={"/marmorwhite.jpg"}
@@ -91,7 +93,7 @@ export default function Home() {
     <div className="flex w-full mt-20 justify-between gap-x-10">
       <div className="w-1/4 text-l text-black">
         <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-        <button type="button" className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
+        <button type="button" className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
       </div>
       {/* Image container adjusted to be next to the paragraph */}
       <div className="w-1/2 h-auto mr-40">
@@ -154,7 +156,7 @@ export default function Home() {
         </div>
       </section>
       <section className="h-[100vh] w-full flex justify-center">
-    <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
+    <div className="w-full h-[100vh] flex justify-center items-center absolute -z-10">
       <Image
         src={"/marmorwhite.jpg"}
         alt="Coffee Shop"
@@ -163,39 +165,7 @@ export default function Home() {
         priority
       />
     </div>
-    <div>
-      <div className="relative left-40 mt-32 text-5xl text-orange-500 font-bold">
-        <h1>WHAT OUR CUSTOMERS</h1>
-        <h1>SAY ABOUT US</h1>
-      {/* Below the h1s, adding the big div with 4 containers */}
-      </div>
-    {/* Increased margin-top, padding, and grid gap for the big div with 4 containers */}
-    <div className="mt-0 w-full grid grid-cols-2 grid-rows-2 py-24 px-24 relative bottom-10">
-      <div className=" p-6 border-t-2 border-l-2 bg-gray-50 border-black">
-        <div className="px-8 py-12">
-          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h1 className="mt-5 font-bold">hgv ghbh</h1>
-        </div>
-      </div>
-      <div className="bg-gray-50 p-6 border-t-2 border-r-2 border-l-2 border-black">
-        <div className="px-8 py-12">
-          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h1 className="mt-5 font-bold">hgv ghbh</h1>
-        </div>
-      </div>
-      <div className="bg-gray-50 p-6 border-t-2 border-l-2 border-b-2 border-black">
-        <div className="px-8 py-12">
-          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h1 className="mt-5 font-bold">hgv ghbh</h1>
-        </div>
-      </div>
-      <div className="bg-gray-50 p-6 border-2 border-black">
-        <div className="px-8 py-12">
-          <p className="text-l w-1/2">“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h1 className="mt-5 font-bold">hgv ghbh</h1>
-        </div>
-      </div></div>
-    </div>
+    <Rating />
   </section>
     </main>
   );

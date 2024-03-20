@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-
+import { MenuOutlined } from '@ant-design/icons';
 export default function Navbar() {
     // State for showing or hiding the navbar based on scroll position
     const [show, setShow] = useState(true);
@@ -52,28 +52,24 @@ export default function Navbar() {
     return (
 <nav className={`fixed flex z-50 justify-between w-full p-7 transition-opacity duration-500 ${show ? 'opacity-100' : 'opacity-0'} ${navbarBg} navbar-transition`}>
             <Link href="/#">
-                <div className='w-12 h-12 relative bottom-1 ml-6'>
+                    <div className='w-12 h-12 relative bottom-1 ml-6 mt-'>
                         <Image
-                            src="/sushilogo.png"
+                            src="/newestsushilogo.png"
                             alt="Sushi Store"
-                            width={60} // Specify width
-                            height={60} // Specify height
-                            objectFit="contain" // Adjust based on preference
+                            width={60}
+                            height={60}
+                            objectFit="contain"
                             priority
                         />
-                </div>
+                    </div>
             </Link>
             <div className='hidden lg:block'>
                 <ul className="flex gap-x-10 mr-20 text-l font-light">
                     {/* Navigation links for large screens */}
-                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
-                    <li className="transition duration-300 ease-in-out hover:bg-purple-300 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
-                    <li className="hover:text-gray-600 hover:pointer transition-colors mt-2 text-4xl">
-                        <Link href="/contact">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" className='text-orange-500' viewBox="0 0 50 50">
-                                <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
-                            </svg>
-                        </Link>
+                    <li className="transition duration-300 ease-in-out hover:bg-orange-500 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">CALL US 1234 12345678</Link></li>
+                    <li className="transition duration-300 ease-in-out hover:bg-orange-500 font-light border py-3 px-5 bg-orange-50 rounded-full text-xl"><Link href="/about">ORDER ONLINE</Link></li>
+                    <li className="hover:text-amber-50 hover:pointer transition-colors text-amber-500 mt-0 text-4xl">
+                    <MenuOutlined onClick={() => setShowMenu(!showMenu)} />
                     </li>
                     
                     </ul>

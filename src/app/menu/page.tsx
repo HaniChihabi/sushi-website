@@ -133,12 +133,7 @@ export default function Menu() {
                     <p>I’m a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
-                
-
-
-
-                
-            </div>
+                </div>
             </div>
         </section>
         </>

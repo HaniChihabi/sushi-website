@@ -11,14 +11,14 @@ export default function Home() {
       <section className="flex w-full h-[screen] ">
         <div className="w-full h-screen flex justify-center items-center relative -z-10">
           <Image
-            src={"/mainsushi2.jpg"}
+            src="/mainsushi2.jpg"
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
             priority
           />
           <div className="text-center text-6xl flex relative bottom-40">
-            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion,</h1>
+            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion</h1>
             <h1 className=" font-bold text-black z-10 relative left-5">  Served with Joy</h1>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="h-screen w-full flex justify-center">
         <div className="w-full h-screen absolute flex justify-center items-center  -z-10">
           <Image
-            src={"/marmordark.jpg"}
+            src="/marmordark.jpg"
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="w-full h-1/2 flex">
             <div className="w-1/3 h-full relative">
               <Image
-                src={"/sushi3.jpg"}
+                src="/sushi3.jpg"
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="w-full h-1/2 relative top-0 flex">
             <div className="w-1/3 h-2/3 relative right-80 bottom-10">
               <Image
-                src={"/sushi4.jpg"}
+                src="/sushi4.jpg"
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div className="w-full h-1/2 relative top-10 left-56">
               <Image
-                src={"/sushi5.jpg"}
+                src="/sushi5.jpg"
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="h-[90vh] w-full flex justify-center text-white">
   <div className="w-full h-screen absolute flex justify-center items-center -z-10">
     <Image
-      src={"/marmorwhite.jpg"}
+      src="/marmorwhite.jpg"
       alt="Coffee Shop"
       objectFit="cover"
       layout="fill"
@@ -87,7 +87,7 @@ export default function Home() {
   <div className="absolute left-40 mt-40 text-black gap-x-10">
     <div className="text-5xl text-orange-500 font-bold">
       <h1>DROP BY,</h1>
-      <h1>IT'S SUSHI TIME SOMEWHERE</h1>
+      <h1>ITS SUSHI TIME SOMEWHERE</h1>
     </div>
     {/* Flex container for aligning paragraph and image side by side */}
     <div className="flex w-full mt-20 justify-between gap-x-10">
@@ -98,7 +98,7 @@ export default function Home() {
       {/* Image container adjusted to be next to the paragraph */}
       <div className="w-1/2 h-auto mr-40">
       <img
-          src={"/sushi6.jpg"}
+          src="/sushi6.jpg"
           alt="Sushi"
           style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
         />  
@@ -111,7 +111,7 @@ export default function Home() {
       <section className="h-[150vh] w-full flex justify-center">
         <div className="w-full h-[150vh] flex justify-center items-center absolute -z-10">
           <Image
-            src={"/marmordark.jpg"}
+            src="/marmordark.jpg"
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
@@ -121,12 +121,12 @@ export default function Home() {
         <div className=" absolute left-40 mt-40 text-black gap-x-10">
           <div className="text-5xl text-orange-500 font-bold">
             <h1>DROP BY,</h1>
-            <h1>IT'S SUSHI TIME SOMEWHERE</h1>
+            <h1>ITS SUSHI TIME SOMEWHERE</h1>
           </div>
           <div className="flex flex-row w-full h-[100vh] gap-x-64">
             <div className="w-2/5 flex justify-center items-center relative mt-20"> {/* Adjusted for image */}
               <Image
-                src={"/sushishop.jpg"}
+                src="/sushishop.jpg"
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -158,7 +158,7 @@ export default function Home() {
       <section className="h-[100vh] w-full flex justify-center">
     <div className="w-full h-[100vh] flex justify-center items-center absolute -z-10">
       <Image
-        src={"/marmorwhite.jpg"}
+        src="/marmorwhite.jpg"
         alt="Coffee Shop"
         objectFit="cover"
         layout="fill"

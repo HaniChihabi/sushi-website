@@ -12,7 +12,7 @@ export default function Menu() {
         <section className="w-full h-[30vh]">
             <div className="w-full h-full flex justify-center items-center relative -z-10">
                 <Image
-                    src={"/marmorwhite.jpg"}
+                    src="/marmorwhite.jpg"
                     alt="Coffee Shop"
                     objectFit="cover"
                     layout="fill"
@@ -28,7 +28,7 @@ export default function Menu() {
         <section className="w-full h-[200vh] flex justify-center items-center relative -z-10">
         <div className="w-full h-full flex justify-center items-center relative -z-10">
             <Image
-                    src={"/marmordark.jpg"}
+                    src="/marmordark.jpg"
                     alt="Coffee Shop"
                     objectFit="cover"
                     layout="fill"

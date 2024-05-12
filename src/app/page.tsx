@@ -18,7 +18,7 @@ export default function Home() {
             priority
           />
           <div className="text-center text-6xl flex relative bottom-40">
-            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion, </h1>
+            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion, &apos;</h1>
             <h1 className=" font-bold text-black z-10 relative left-5">  Served with Joy</h1>
           </div>
         </div>

@@ -1,23 +1,25 @@
 import Image from "next/image";
 import {Divider} from "@nextui-org/react";
 import CustomDivider from './components/CustomDivider'; // Adjust the import path as necessary
+import FiveStar from "./components/FiveStar";
+import Rating from "./components/Rating";
 
 export default function Home() {
   return (
     <main>
-
-      <section className="flex w-full h-screen ">
+{/* test */}
+      <section className="flex w-full h-[screen] ">
         <div className="w-full h-screen flex justify-center items-center relative -z-10">
           <Image
-            src={"/mainsushi.jpg"}
+            src={"/mainsushi2.jpg"}
             alt="Coffee Shop"
             objectFit="cover"
             layout="fill"
             priority
           />
-          <div>
-            <h1 className=" font-bold text-black text-7xl z-10 relative bottom-32 ">Sushi Store</h1>
-            <h1 className=" font-bold text-orange-500 text-6xl z-10 relative bottom-20 left-5">Crafted with Passion, Served with Joy</h1>
+          <div className="text-center text-6xl flex relative bottom-40">
+            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion, </h1>
+            <h1 className=" font-bold text-black z-10 relative left-5">  Served with Joy</h1>
           </div>
         </div>
       </section>
@@ -46,7 +48,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 h-full ml-20 text-l leading-relaxed mt-10">
               <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-              <button type="button"  className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
+              <button type="button"  className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
             </div>
           </div>
           <div className="w-full h-1/2 relative top-0 flex">
@@ -59,7 +61,7 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="w-full h-1/2 relative left-56">
+            <div className="w-full h-1/2 relative top-10 left-56">
               <Image
                 src={"/sushi5.jpg"}
                 alt="Coffee Shop"
@@ -72,7 +74,7 @@ export default function Home() {
       </div>
       </section>
       
-      <section className="h-screen w-full flex justify-center text-white">
+      <section className="h-[90vh] w-full flex justify-center text-white">
   <div className="w-full h-screen absolute flex justify-center items-center -z-10">
     <Image
       src={"/marmorwhite.jpg"}
@@ -91,7 +93,7 @@ export default function Home() {
     <div className="flex w-full mt-20 justify-between gap-x-10">
       <div className="w-1/4 text-l text-black">
         <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
-        <button type="button" className="transition duration-300 ease-in-out hover:bg-purple-300 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
+        <button type="button" className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
       </div>
       {/* Image container adjusted to be next to the paragraph */}
       <div className="w-1/2 h-auto mr-40">
@@ -124,7 +126,7 @@ export default function Home() {
           <div className="flex flex-row w-full h-[100vh] gap-x-64">
             <div className="w-2/5 flex justify-center items-center relative mt-20"> {/* Adjusted for image */}
               <Image
-                src={"/themainburger.jpg"}
+                src={"/sushishop.jpg"}
                 alt="Coffee Shop"
                 objectFit="cover"
                 layout="fill"
@@ -153,7 +155,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      <section className="h-[100vh] w-full flex justify-center">
+    <div className="w-full h-[100vh] flex justify-center items-center absolute -z-10">
+      <Image
+        src={"/marmorwhite.jpg"}
+        alt="Coffee Shop"
+        objectFit="cover"
+        layout="fill"
+        priority
+      />
+    </div>
+    <Rating />
+  </section>
     </main>
   );
 }

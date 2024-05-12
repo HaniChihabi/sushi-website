@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/BackgroundSection.module.css */
+.backgroundSection {
+  height: 100vh; /* Full viewport height */
+  background-image: url('/sushi1.jpg'); /* Adjust the path as needed */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Create the static effect */
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

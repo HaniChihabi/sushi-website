@@ -18,7 +18,7 @@ export default function Home() {
             priority
           />
           <div className="text-center text-6xl flex relative bottom-40">
-            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion, &apos;</h1>
+            <h1 className=" font-bold text-orange-500 z-10 relative right-0 mb-7">Crafted with Passion,</h1>
             <h1 className=" font-bold text-black z-10 relative left-5">  Served with Joy</h1>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Home() {
               />
             </div>
             <div className="w-1/2 h-full ml-20 text-l leading-relaxed mt-10">
-              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+              <p>Im a paragraph. Click here to add your own text and edit me. Its easy. Just click Edit Text or double click me to add your own content and make changes to the font. Im a great place for you to tell a story and let your users know a little more about you.</p>
               <button type="button"  className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
     {/* Flex container for aligning paragraph and image side by side */}
     <div className="flex w-full mt-20 justify-between gap-x-10">
       <div className="w-1/4 text-l text-black">
-        <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+        <p className="text-xl">Im a paragraph. Click here to add your own text and edit me. Its easy. Just click Edit Text or double click me to add your own content and make changes to the font.</p>
         <button type="button" className="transition duration-300 ease-in-out hover:bg-amber-50 font-light py-3 px-7 bg-orange-500 rounded-full text-xl text-black mt-28">Explore the Menu</button>
       </div>
       {/* Image container adjusted to be next to the paragraph */}
@@ -134,7 +134,7 @@ export default function Home() {
               />   
             </div>    
             <div className="w-1/4 mt-20 h-f text-l text-white">
-              <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+              <p className="text-xl">Im a paragraph. Click here to add your own text and edit me. Its easy. Just click Edit Text or double click me to add your own content and make changes to the font.</p>
               <div className="mt-40">                
                 <CustomDivider thickness="h-0.5" color="bg-white" margin="my-8" />
                 <h1 className="text-3xl font-bold">Address</h1>

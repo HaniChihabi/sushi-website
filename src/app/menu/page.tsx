@@ -2,6 +2,7 @@ import Image from "next/image";
 import CustomDivider from "../components/CustomDivider";
 
 export default function Menu() {
+    
     return(
         <>
         <section className="h-[12vh] w-full bg-black">
@@ -41,7 +42,7 @@ export default function Menu() {
                 {/* APPETIZER */}
                 <div className="ml-4 mt-20">
                     <h1 className="font-bold text-3xl">APPETIZER</h1>
-                    <p>Im a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a description for a section of your menu. Click me and then Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -49,7 +50,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -57,7 +58,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -65,7 +66,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
 
@@ -73,7 +74,7 @@ export default function Menu() {
 
                 <div className="ml-4 mt-32">
                     <h1 className="font-bold text-3xl">SPECIAL SUSHI ROLLS</h1>
-                    <p>Im a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a description for a section of your menu. Click me and then Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -81,7 +82,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -89,7 +90,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -97,7 +98,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
 
@@ -106,7 +107,7 @@ export default function Menu() {
 
                 <div className="ml-4 mt-32">
                     <h1 className="font-bold text-3xl">NIGIRI</h1>
-                    <p>Im a description for a section of your menu. Click me and then “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a description for a section of your menu. Click me and then Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -114,7 +115,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -122,7 +123,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 <div className="ml-4">
@@ -130,7 +131,7 @@ export default function Menu() {
                         <h1 className="font-bold text-xl">Steamed Buns</h1>
                         <h1 className="mr-4 font-bold text-xl">6.00$</h1>
                     </div>
-                    <p>Im a dish description. Click “Edit Menu” to open the Restaurant Menu editor and change my text.</p>
+                    <p>Im a dish description. Click Edit Menu to open the Restaurant Menu editor and change my text.</p>
                 </div>
                 <CustomDivider thickness="h-0.5" color="bg-neutral-700" margin="my-8" />
                 
